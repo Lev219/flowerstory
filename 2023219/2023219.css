@@ -1,0 +1,359 @@
+@font-face{
+    font-family:'Inconsolata_SemiExpanded-Light' ;
+    src:url('../Inconsolata_SemiExpanded-Light.ttf')}
+  body{font-family:'Inconsolata_SemiExpanded-Light'}
+  p{font-family:'Inconsolata_SemiExpanded-Light'}
+
+/* Default styles */
+@media only screen and (min-width: 800px) {
+	.button {
+		top: 10px;
+		width: 100px;
+		position: absolute;
+		left: 10px;
+	}
+
+	.frame {
+		top: 200px;
+		width: 600px;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.title {
+		top: 90px;
+		font-size: 34px;
+		position: absolute;
+		left: 58%;
+		transform: translateX(-50%);
+	}
+
+	.center {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.pic {
+		top: 265px;
+		width: 500px;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		max-width: 100%;
+	}
+
+	.english {
+		top: 1200px;
+		width: 600px;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		font-size: 16px;
+	}
+
+	.chinese {
+		top: 1750px;
+		width: 600px;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.date {
+		top: 1050px;
+		width: 160px;
+		height: 70px;
+		position: absolute;
+		left: 40%;
+		transform: translateX(-50%);
+		max-width: 100%;
+	}
+
+	.group {
+		top: 1050px;
+		width: 150px;
+		height: 70px;
+		position: absolute;
+		left: 60%;
+		transform: translateX(-50%);
+		max-width: 100%;
+	}
+  .left{
+    top: 2200px;
+		width: 50px;
+		position: absolute;
+		left: 70%;
+		transform: translateX(-50%);
+  }
+  .right{
+    top: 2200px;
+		width: 50px;
+		position: absolute;
+		left: 75.5%;
+		transform: translateX(-50%);
+  }
+}
+
+/* CSS for screens narrower than 600px */
+@media only screen and (max-width: 800px) and (min-width:600px) {
+	.button {
+		top: 10px;
+		width: 80px;
+		position: absolute;
+		left: 10px;
+	}
+
+	.frame {
+		top: 200px;
+		width: 400px;
+		position: absolute;
+		left: 22%;
+	}
+
+	.title {
+		top: 120px;
+		font-size: 28px;
+		position: absolute;
+		left: 56%;
+		transform: translateX(-50%);
+	}
+
+	.center {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.pic {
+		top: 245px;
+		width: 330px;
+		position: absolute;
+		left: 26.5%;
+		max-width: 100%;
+	}
+
+	.english {
+		top: 900px;
+		width: 50%;
+		position: absolute;
+		left: 24%;
+
+		font-size: 14px;
+	}
+
+	.chinese {
+		top: 1520px;
+		width: 50%;
+		position: absolute;
+		left: 24%;
+		font-size: 14px;
+	}
+
+	.date {
+		top: 750px;
+		width: 100px;
+		font-size: 16px;
+		height: 45px;
+		position: absolute;
+		left: 28%;
+	}
+
+	.group {
+		top: 750px;
+		width: 100px;
+		font-size: 16px;
+		height: 45px;
+		position: absolute;
+		left: 56%;
+	}
+  .left{
+    top: 2000px;
+		width: 50px;
+		position: absolute;
+		left: 70%;
+		transform: translateX(-50%);
+  }
+  .right{
+    top: 2000px;
+		width: 50px;
+		position: absolute;
+		left: 80%;
+		transform: translateX(-50%);
+  }
+}
+@media only screen and (max-width:600px){
+	
+	.button {
+		top: 10px;
+		width: 80px;
+		position: absolute;
+		left: 10px;
+	}
+	
+	.frame {
+		top: 200px;
+		width: 400px;
+		position: absolute;
+		left: 10%;
+	}
+	
+	.title {
+		top: 135px;
+		font-size: 22px;
+		position: absolute;
+		left: 59%;
+		transform: translateX(-50%);
+	}
+	
+	.center {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.pic {
+		top: 245px;
+		width: 330px;
+		position: absolute;
+		left: 16%;
+		max-width: 100%;
+	}
+	
+	.english {
+		top: 900px;
+		width: 50%;
+		position: absolute;
+		left: 18%;
+	
+		font-size: 14px;
+	}
+	
+	.chinese {
+		top: 1750px;
+		width: 50%;
+		position: absolute;
+		left: 18%;
+		font-size: 14px;
+	}
+	
+	.date {
+		top: 750px;
+		width: 100px;
+		font-size: 16px;
+		height: 45px;
+		position: absolute;
+		left: 22%;
+	}
+	
+	.group {
+		top: 750px;
+		width: 100px;
+		font-size: 16px;
+		height: 45px;
+		position: absolute;
+		left: 50%;
+	}
+  .left{
+    top: 2400px;
+		width: 50px;
+		position: absolute;
+		left: 60%;
+		transform: translateX(-50%);
+  }
+  .right{
+    top: 2400px;
+		width: 50px;
+		position: absolute;
+		left: 75%;
+		transform: translateX(-50%);
+  }
+}
+@media only screen and (max-width:502px){
+	
+	.button {
+		top: 10px;
+		width: 80px;
+		position: absolute;
+		left: 10px;
+	}
+	
+	.frame {
+		top: 200px;
+		width: 400px;
+		position: absolute;
+		left: 10%;
+	}
+	
+	.title {
+		top: 135px;
+		font-size: 24px;
+		position: absolute;
+		left: 60%;
+		transform: translateX(-50%);
+	}
+	
+	.center {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.pic {
+		top: 245px;
+		width: 330px;
+		position: absolute;
+		left: 16%;
+		max-width: 100%;
+	}
+	
+	.english {
+		top: 900px;
+		width: 50%;
+		position: absolute;
+		left: 22%;
+	
+		font-size: 14px;
+	}
+	
+	.chinese {
+		top: 1750px;
+		width: 50%;
+		position: absolute;
+		left: 22%;
+		font-size: 14px;
+	}
+	
+	.date {
+		top: 750px;
+		width: 100px;
+		font-size: 16px;
+		height: 45px;
+		position: absolute;
+		left: 22%;
+	}
+	
+	.group {
+		top: 750px;
+		width: 100px;
+		font-size: 16px;
+		height: 45px;
+		position: absolute;
+		left: 58%;
+	}
+  .left{
+    top: 2400px;
+		width: 40px;
+		position: absolute;
+		left: 60%;
+		transform: translateX(-50%);
+  }
+  .right{
+    top: 2400px;
+		width: 40px;
+		position: absolute;
+		left: 70%;
+		transform: translateX(-50%);
+  }
+}
