@@ -54,7 +54,7 @@
 	}
 
 	.chinese {
-		top: 1600px;
+		top: 1650px;
 		width: 600px;
 		position: absolute;
 		left: 50%;
@@ -116,7 +116,7 @@
 		top: 120px;
 		font-size: 28px;
 		position: absolute;
-		left: 56%;
+		left: 66%;
 		transform: translateX(-50%);
 	}
 
@@ -144,7 +144,7 @@
 	}
 
 	.chinese {
-		top: 1350px;
+		top: 1400px;
 		width: 50%;
 		position: absolute;
 		left: 24%;
@@ -169,14 +169,14 @@
 		left: 56%;
 	}
   .left{
-    top: 1600px;
+    top: 1800px;
 		width: 50px;
 		position: absolute;
 		left: 70%;
 		transform: translateX(-50%);
   }
   .right{
-    top: 1600px;
+    top: 1800px;
 		width: 50px;
 		position: absolute;
 		left: 80%;
@@ -256,7 +256,7 @@
 		left: 50%;
 	}
   .left{
-    top: 1800px;
+    top: 1900px;
 		width: 50px;
 		position: absolute;
 		left: 60%;
@@ -318,7 +318,7 @@
 	}
 	
 	.chinese {
-		top: 1550px;
+		top: 1500px
 		width: 50%;
 		position: absolute;
 		left: 22%;
