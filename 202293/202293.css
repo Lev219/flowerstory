@@ -318,7 +318,7 @@
 	}
 	
 	.chinese {
-		top: 1350px;
+		top: 1450px;
 		width: 50%;
 		position: absolute;
 		left: 22%;
@@ -343,14 +343,14 @@
 		left: 58%;
 	}
   .left{
-    top: 1700px;
+    top: 1750px;
 		width: 40px;
 		position: absolute;
 		left: 60%;
 		transform: translateX(-50%);
   }
   .right{
-    top: 1700px;
+    top: 1750px;
 		width: 40px;
 		position: absolute;
 		left: 70%;
