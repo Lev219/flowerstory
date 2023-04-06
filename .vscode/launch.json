@@ -5,6 +5,12 @@
             "name": "http://127.0.0.1:3000/201771/201771.html",
             "request": "launch",
             "url": "http://127.0.0.1:3000/201771/201771.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/?/00.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/?/00.html"
         }
     ]
 }
