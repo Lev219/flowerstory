@@ -1,6 +1,6 @@
 @font-face{
     font-family:'Inconsolata_SemiExpanded-Light' ;
-    src:url('/Inconsolata_SemiExpanded-Light.ttf')}
+    src:url('../Inconsolata_SemiExpanded-Light.ttf')}
   body{font-family:'Inconsolata_SemiExpanded-Light'}
   p{font-family:'Inconsolata_SemiExpanded-Light'}
 
