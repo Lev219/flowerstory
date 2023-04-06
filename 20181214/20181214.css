@@ -36,7 +36,7 @@
 	}
 
 	.pic {
-		top: 305px;
+		top: 265px;
 		width: 500px;
 		position: absolute;
 		left: 50%;
@@ -127,7 +127,7 @@
 	}
 
 	.pic {
-		top: 295px;
+		top: 245px;
 		width: 330px;
 		position: absolute;
 		left: 26.5%;
@@ -214,7 +214,7 @@
 	}
 	
 	.pic {
-		top: 295px;
+		top: 245px;
 		width: 330px;
 		position: absolute;
 		left: 16%;
@@ -301,7 +301,7 @@
 	}
 	
 	.pic {
-		top: 295px;
+		top: 245px;
 		width: 330px;
 		position: absolute;
 		left: 16%;
@@ -343,14 +343,14 @@
 		left: 58%;
 	}
   .left{
-    top: 1900px;
+    top: 1550px;
 		width: 40px;
 		position: absolute;
 		left: 60%;
 		transform: translateX(-50%);
   }
   .right{
-    top: 1900px;
+    top: 1550px;
 		width: 40px;
 		position: absolute;
 		left: 70%;

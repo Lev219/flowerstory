@@ -343,14 +343,14 @@
 		left: 58%;
 	}
   .left{
-    top: 1350px;
+    top: 1250px;
 		width: 40px;
 		position: absolute;
 		left: 60%;
 		transform: translateX(-50%);
   }
   .right{
-    top: 1350px;
+    top: 1250px;
 		width: 40px;
 		position: absolute;
 		left: 75%;
